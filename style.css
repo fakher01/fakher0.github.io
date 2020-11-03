@@ -1,0 +1,154 @@
+body{
+ 
+}
+a:link, a:visited,select{ 
+    background-color: rgb(150, 126, 126);
+    color: black;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Verdana;
+    font-weight: bold;   
+    margin: 0px 10px;
+    
+  }
+select{
+  font-size: 15px; 
+}
+select:hover{
+    background-color: #ff6666;
+    color: rgb(54, 4, 100);
+    font-style: italic;
+}
+
+a:hover, a:active{
+    background-color: #ff6666;
+    color: rgb(54, 4, 100);
+    font-style: italic;
+    
+  }
+nav{
+  background-color: dimgrey;
+  border:0px;
+  border-radius: 5px;
+  padding: 5px;
+}
+article{
+  float: left;
+  width: 68%;
+  height: auto;
+}
+section{
+background-color: lightgrey;
+padding: 20px;
+margin-top: 20px;
+margin-left: 20px;
+border-radius: 7px;
+}
+h2{
+  font-family: 'verdana';
+  color:rgb(160, 32, 32);
+}
+b{
+  color: rgb(94, 94, 201);
+}
+p{
+font-family: cursive;
+font-size: 20px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+
+aside{
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 0px;
+  margin-top: 20px;
+  float: right;
+  font-style: oblique;
+  background-color: lightgray;
+  border-radius: 7px;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(240, 50, 50);
+  color: white;
+  text-align: center;
+  opacity: 0.2;
+}
+#middle{
+  background-color: lightgrey;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 120px;
+  margin-right: 120px;
+  border-radius: 7px;
+}
+}
+footer:hover{
+  opacity: 1;
+}
+ul{
+  font-size: 20px;
+  font-family: cursive;
+}
+h1{
+  text-align: center;
+  font-size: 30px;
+  font-family: URW Chancery L, cursive;
+}
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  outline: none;
+  border: 2px solid lightblue;
+  border-radius: 5px;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
